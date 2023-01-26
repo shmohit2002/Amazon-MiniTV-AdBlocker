@@ -1,0 +1,17 @@
+{
+  "name": "Amazon MiniTV AdBlocker",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Blocks ads in Amazon MiniTV",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "declarativeNetRequest" 
+  ],
+  "icons":{
+    "32":"/files/i2.png",
+    "48":"/files/ii3.png"
+  }
+}
