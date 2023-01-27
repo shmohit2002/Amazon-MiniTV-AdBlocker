@@ -6,8 +6,8 @@ chrome.declarativeNetRequest.updateDynamicRules({
             'type': 'block'
         },
         'condition': {
-            'urlFilter': 'cdn-a.amazon-adsystem.com',
-            'resourceTypes': ['main_frame']
+            'urlFilter': '*.amazon-adsystem.com',
+            'resourceTypes': ['main_frame','media']
         }
     }],
     removeRuleIds: [1001]
