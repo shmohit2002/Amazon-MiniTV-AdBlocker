@@ -1,6 +1,5 @@
 {
   "name": "Amazon MiniTV AdBlocker",
-  "action": {},
   "manifest_version": 3,
   "version": "0.1",
   "description": "Blocks ads in Amazon MiniTV",
