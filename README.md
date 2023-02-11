@@ -8,6 +8,6 @@ You can download the extension from the chrome web store by searching "Amazon Mi
 
 To open a new issue [Click Here](https://github.com/shmohit2002/Amazon-MiniTV-AdBlocker/issues)
 
-## Issues
+## Releases
 
 To download the latest version check the latest release [here](https://github.com/shmohit2002/Amazon-MiniTV-AdBlocker/releases)
