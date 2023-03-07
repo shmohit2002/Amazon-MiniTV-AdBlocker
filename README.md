@@ -12,4 +12,4 @@ To open a new issue [Click Here](https://github.com/shmohit2002/Amazon-MiniTV-Ad
 
 ## Releases
 
-To download the latest version check the latest release [here](https://github.com/shmohit2002/Amazon-MiniTV-AdBlocker/releases)
+To check the latest release, click [here](https://github.com/shmohit2002/Amazon-MiniTV-AdBlocker/releases)
