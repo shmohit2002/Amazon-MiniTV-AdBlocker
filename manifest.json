@@ -1,16 +1,14 @@
 {
-  "name": "Amazon MiniTV AdBlocker",
+  "name": "Amazon MiniTV AdBlocker — Paused",
   "manifest_version": 3,
-  "version": "0.1",
-  "description": "Blocks ads in Amazon MiniTV",
-  "background": {
-    "service_worker": "background.js"
+  "version": "0.2.0",
+  "description": "Compatibility paused while the current Amazon streaming player is reverified.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Compatibility paused"
   },
-  "permissions": [
-    "declarativeNetRequest" 
-  ],
-  "icons":{
-    "32":"/files/i2.png",
-    "48":"/files/ii3.png"
+  "icons": {
+    "32": "files/i2.png",
+    "48": "files/ii3.png"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "name": "amazon-minitv-adblocker",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "check": "node --test"
+  }
+}

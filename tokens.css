@@ -1,0 +1,40 @@
+/* Hallmark tokens · catalog theme: Coral · local-only typography */
+:root {
+  --color-paper: oklch(97.5% 0.008 55);
+  --color-paper-raised: oklch(94% 0.015 45);
+  --color-ink: oklch(22% 0.016 35);
+  --color-ink-soft: oklch(40% 0.015 35);
+  --color-muted: oklch(43% 0.015 35);
+  --color-rule: oklch(83% 0.02 45);
+  --color-accent: oklch(62% 0.16 28);
+  --color-accent-soft: oklch(92% 0.04 28);
+  --color-accent-ink: oklch(98% 0.008 55);
+  --color-focus: oklch(45% 0.18 28);
+
+  --font-display: "Cambria", "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: "Aptos", "Segoe UI", sans-serif;
+  --font-label: "Cascadia Code", "SFMono-Regular", monospace;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+
+  --text-xs: 0.8rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-xl: 1.953rem;
+
+  --leading-tight: 1.12;
+  --leading-body: 1.58;
+  --rule-thin: 0.0625rem;
+  --rule-accent: 0.25rem;
+  --radius-small: 0.5rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 160ms;
+}

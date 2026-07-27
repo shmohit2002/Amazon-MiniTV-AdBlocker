@@ -1,15 +1,39 @@
-# Amazon-MiniTV-AdBlocker
+# Amazon MiniTV AdBlocker
 
-This extensions helps the users in blocking the Amazon Ads on Amazon Mini TV platform for smooth content experience.
+## Compatibility status
 
-## Chrome Web Store
+Version 0.2.0 is a fail-open compatibility checkpoint. Amazon MiniTV has moved
+into newer Amazon streaming surfaces, and the previous broad network rules could
+interfere with normal playback. This version therefore performs no blocking or
+playback changes while the current browser player is reverified.
 
-You can download the extension from the chrome web store by searching "Amazon MiniTV AdBlocker" or clicking [here](https://chrome.google.com/webstore/detail/amazon-minitv-adblocker/nlkkhdidnadclaajbpmhihbeccellili)
+- No permissions or host access
+- No background worker or content script
+- No analytics, telemetry, or transmitted browsing data
+- A local popup that explains the current state
 
-## Issues
+`background.js` is retained as unreferenced migration history. It is not loaded
+by `manifest.json` and cannot run in the extension.
 
-To open a new issue [Click Here](https://github.com/shmohit2002/Amazon-MiniTV-AdBlocker/issues)
+## Verify
 
-## Releases
+```sh
+npm test
+```
 
-To check the latest release, click [here](https://github.com/shmohit2002/Amazon-MiniTV-AdBlocker/releases)
+For a manual check, load the repository as an unpacked extension in Chrome,
+confirm the extension details show no site access, open the toolbar popup, and
+verify normal Amazon playback remains unchanged.
+
+## Re-enabling functionality
+
+Do not add guessed selectors or broad media filters. A functional release needs
+a sanitized current-player trace, positive and negative fixtures, exact playback
+state restoration, fail-open timeouts, and a Chrome Stable journey test. Never
+commit cookies, account identifiers, raw viewing history, or captured tokens.
+
+## Links
+
+- [Chrome Web Store listing](https://chrome.google.com/webstore/detail/amazon-minitv-adblocker/nlkkhdidnadclaajbpmhihbeccellili)
+- [Report current player behavior](https://github.com/shmohit2002/Amazon-MiniTV-AdBlocker/issues)
+- [Releases](https://github.com/shmohit2002/Amazon-MiniTV-AdBlocker/releases)
