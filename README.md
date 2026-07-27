@@ -18,12 +18,23 @@ by `manifest.json` and cannot run in the extension.
 ## Verify
 
 ```sh
-npm test
+npm run check
 ```
 
 For a manual check, load the repository as an unpacked extension in Chrome,
 confirm the extension details show no site access, open the toolbar popup, and
 verify normal Amazon playback remains unchanged.
+
+## Build the store artifact
+
+```sh
+npm run package
+```
+
+The command writes a deterministic ZIP and SHA-256 evidence to the ignored
+`.artifacts/` directory. Its hard-coded allowlist contains only the manifest,
+popup, tokens, and two icons; it excludes the legacy worker, tests, dotfiles,
+private project notes, and repository metadata.
 
 ## Re-enabling functionality
 

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "test": "node --test",
-    "check": "node --test"
+    "check": "node --check background.js && node --test",
+    "package": "node scripts/package.mjs"
   }
 }
